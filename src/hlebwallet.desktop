@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=HLEBcoin Wallet
+Comment=It smells of big gay
+Exec=HLEB %U
+Terminal=false
+Type=Application
+Icon=hleb
+MimeType=x-scheme-handler/lines;
+Categories=Office;Finance;
