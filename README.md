@@ -8,7 +8,7 @@ git clone https://github.com/hornie/hlebcoinCN1.git
 ```
 
 **2. Rename hlebcoinCN1 and move it to hlebcoinCN1-wallet:**
-
+```
 mv hlebcoinCN1 cryptonote
 mv cryptonote hlebcoinCN1-wallet
 ```
