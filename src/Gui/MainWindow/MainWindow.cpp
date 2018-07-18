@@ -821,7 +821,7 @@ void MainWindow::showPreferences() {
 }
 
 void MainWindow::communityForumTriggered() {
-  QDesktopServices::openUrl(QUrl::fromUserInput(COMMUNITY_FORUM_URL));
+  QDesktopServices::openUrl(QUrl::fromUserInput("https://discord.gg/cev66Px"));
 }
 
 void MainWindow::reportIssueTriggered() {

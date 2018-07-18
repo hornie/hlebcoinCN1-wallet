@@ -82,7 +82,7 @@ Settings& Settings::instance() {
 
 
 Settings::Settings() : m_p2pBindPort(0), m_cmdLineParser(nullptr) {
-  m_defaultPoolList << "hlebcoinpool";
+  m_defaultPoolList << "pool.hleb.cc:3333";
 
   Style* lightStyle = new LightStyle();
   Style* darkStyle = new DarkStyle();
