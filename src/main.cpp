@@ -14,6 +14,7 @@
 //
 // You should have received a copy of the GNU Lesser General Public License
 // along with HLEBcoin.  If not, see <http://www.gnu.org/licenses/>.
+// Credit where credit is due. This wallet was made from Linescoin(LNS) source code.
 
 #include "Application/WalletApplication.h"
 
