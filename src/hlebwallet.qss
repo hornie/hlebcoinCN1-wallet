@@ -104,7 +104,7 @@ QScrollBar:vertical {
 }
 
 QScrollBar::handle:vertical {
-  background-color: %backgroundColorBlueNormal%;
+  background-color: %backgroundColorYellowNormal%;
   min-height: 20px;
 }
 
@@ -139,8 +139,8 @@ QSlider::handle:horizontal {
 }
 
 QSlider::sub-page:horizontal:enabled {
-  background-color: %backgroundColorBlueNormal%;
-  border: 1px solid %backgroundColorBlueNormal%;
+  background-color: %backgroundColorYellowNormal%;
+  border: 1px solid %backgroundColorYellowNormal%;
   border-radius: 3px
 }
 
@@ -158,7 +158,7 @@ QCalendarWidget #qt_calendar_navigationbar {
   background-color: #d0deed;
 }
 QCalendarWidget QAbstractItemView {
-  selection-background-color: #5f9cc7;
+  selection-background-color: #ffca4e;
   selection-color: #ffffff;
 }
 
@@ -176,7 +176,7 @@ QCalendarWidget QToolButton::menu-indicator {
 }
 
 QCalendarWidget QToolButton:hover {
-  background-color: #5f9cc7;
+  background-color: #ffca4e;
 }
 
 
@@ -222,7 +222,7 @@ QCalendarWidget QMenu {
 
 #MainWindow > #centralwidget > #m_headerFrame > #m_walletFrame > #m_copyAddressLabel {
   font-size: %fontSizeTiny%;
-  color: %fontColorBlueHover%;
+  color: %fontColorYellowHover%;
 }
 
 #MainWindow > #centralwidget > #m_toolFrame {
@@ -388,12 +388,12 @@ QCalendarWidget QMenu {
 }
 
 #MainWindow > #centralwidget > #m_syncProgress::chunk {
-  background-color: %backgroundColorBlueNormal%;
+  background-color: %backgroundColorYellowNormal%;
 }
 
 #MainWindow > #centralwidget > #m_headerFrame > #m_balanceFrame > #m_balanceCopyLabel {
   font-size: %fontSizeTiny%;
-  color: %fontColorBlueHover%;
+  color: %fontColorYellowHover%;
 }
 
 
@@ -518,19 +518,19 @@ QMessageBox > QDialogButtonBox > QPushButton {
   max-height: 30px;
   font-size: %fontSizeNormal%;
   color: #ffffff;
-  background-color: %backgroundColorBlueNormal%;
-  border: 1px solid %backgroundColorBlueNormal%;
+  background-color: %backgroundColorYellowNormal%;
+  border: 1px solid %backgroundColorYellowNormal%;
 }
 
 
 QMessageBox > QDialogButtonBox > QPushButton:hover {
-  background-color: %backgroundColorBlueHover%;
-  border: 1px solid %backgroundColorBlueHover%;
+  background-color: %backgroundColorYellowHover%;
+  border: 1px solid %backgroundColorYellowHover%;
 }
 
 QMessageBox > QDialogButtonBox > QPushButton:pressed {
-  background-color: %backgroundColorBluePressed%;
-  border: 1px solid %backgroundColorBluePressed%;
+  background-color: %backgroundColorYellowPressed%;
+  border: 1px solid %backgroundColorYellowPressed%;
 }
 
 #newTransactionLabel {

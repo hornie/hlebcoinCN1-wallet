@@ -35,12 +35,12 @@ const char NEWS_FRAME_STYLE_SHEEET_TEMPLATE[] =
   "}"
 
   "WalletGui--NewsFrame #m_linkLabel {"
-    "color: %fontColorBlueNormal%;"
+    "color: %fontColorYellowNormal%;"
     "font-size:%fontSizeLarge%;"
   "}"
 
   "WalletGui--NewsFrame #m_linkLabel:hover {"
-    "color: %fontColorBlueHover%;"
+    "color: %fontColorYellowHover%;"
   "}"
 
   "WalletGui--NewsFrame #m_scrollFrame {"

@@ -56,7 +56,7 @@ QString LightStyle::toolButtonBackgroundColorHover() const {
 }
 
 QString LightStyle::toolButtonBackgroundColorPressed() const {
-  return "#5f9cc7";
+  return "#ffca4e";
 }
 
 QString LightStyle::toolButtonFontColorNormal() const {

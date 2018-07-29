@@ -35,23 +35,23 @@ const char WALLET_OK_BUTTON_STYLE_SHEET_TEMPLATE[] =
     "max-height: 30px;"
     "font-size: %fontSizeNormal%;"
     "color: #ffffff;"
-    "background-color: %backgroundColorBlueNormal%;"
-    "border: 1px solid %backgroundColorBlueNormal%;"
+    "background-color: %backgroundColorYellowNormal%;"
+    "border: 1px solid %backgroundColorYellowNormal%;"
   "}"
 
   "WalletGui--WalletOkButton:disabled {"
-    "background-color: %backgroundColorBlueDisabled%;"
-    "border: 1px solid %backgroundColorBlueDisabled%;"
+    "background-color: %backgroundColorYellowDisabled%;"
+    "border: 1px solid %backgroundColorYellowDisabled%;"
   "}"
 
   "WalletGui--WalletOkButton:hover {"
-    "background-color: %backgroundColorBlueHover%;"
-    "border: 1px solid %backgroundColorBlueHover%;"
+    "background-color: %backgroundColorYellowHover%;"
+    "border: 1px solid %backgroundColorYellowHover%;"
   "}"
 
   "WalletGui--WalletOkButton:pressed {"
-    "background-color: %backgroundColorBluePressed%;"
-    "border: 1px solid %backgroundColorBluePressed%;"
+    "background-color: %backgroundColorYellowPressed%;"
+    "border: 1px solid %backgroundColorYellowPressed%;"
   "}";
 
 }

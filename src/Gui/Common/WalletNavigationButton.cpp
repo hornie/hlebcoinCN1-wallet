@@ -37,17 +37,17 @@ const char WALLET_NAVIGATION_BUTTON_STYLE_SHEET_TEMPLATE[] =
     "border-radius: 2px;"
     "border: 1px solid %borderColor%;"
     "background-color: %backgroundColorGray%;"
-    "color: %fontColorBlueNormal%;"
+    "color: %fontColorYellowNormal%;"
   "}"
 
   "WalletGui--WalletNavigationButton:hover {"
     "background-color: #ffffff;"
-    "color: %fontColorBlueHover%;"
+    "color: %fontColorYellowHover%;"
   "}"
 
   "WalletGui--WalletNavigationButton:pressed {"
     "background-color: %backgroundColorGray%;"
-    "color: %fontColorBluePressed%;"
+    "color: %fontColorYellowPressed%;"
   "}";
 
 }

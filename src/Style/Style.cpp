@@ -55,15 +55,15 @@ QString Style::fontColorRed() const {
   return "#ef3131";
 }
 
-QString Style::fontColorBlueNormal() const {
+QString Style::fontColorYellowNormal() const {
   return "#0580e8";
 }
 
-QString Style::fontColorBlueHover() const {
+QString Style::fontColorYellowHover() const {
   return "#005faf";
 }
 
-QString Style::fontColorBluePressed() const {
+QString Style::fontColorYellowPressed() const {
   return "#0580e8";
 }
 
@@ -75,20 +75,20 @@ QString Style::backgroundButtonColorGrayHover() const {
   return "#fbfbfb";
 }
 
-QString Style::backgroundColorBlueNormal() const {
-  return "#4197d1";
+QString Style::backgroundColorYellowNormal() const {
+  return "#ffc53b";
 }
 
-QString Style::backgroundColorBlueHover() const {
-  return "#3dacf1";
+QString Style::backgroundColorYellowHover() const {
+  return "#ffcf5f";
 }
 
-QString Style::backgroundColorBluePressed() const {
-  return "#4197d1";
+QString Style::backgroundColorYellowPressed() const {
+  return "#ffc53b";
 }
 
-QString Style::backgroundColorBlueDisabled() const {
-  return "#7f4197d1";
+QString Style::backgroundColorYellowDisabled() const {
+  return "#7fffc53b";
 }
 
 QString Style::backgroundColorGrayNormal() const {
@@ -124,7 +124,7 @@ QString Style::borderColorDark() const {
 }
 
 QString Style::selectionColor() const {
-  return "#5f9cc7";
+  return "#ffca4e";
 }
 
 QString Style::glassColor() const {
@@ -157,15 +157,15 @@ QString Style::makeStyleSheet(const QString& _styleSheetTemplate) const {
     replace("%fontColorGray%", fontColorGray()).
     replace("%fontColorGreen%", fontColorGreen()).
     replace("%fontColorRed%", fontColorRed()).
-    replace("%fontColorBlueNormal%", fontColorBlueNormal()).
-    replace("%fontColorBlueHover%", fontColorBlueHover()).
-    replace("%fontColorBluePressed%", fontColorBluePressed()).
+    replace("%fontColorYellowNormal%", fontColorYellowNormal()).
+    replace("%fontColorYellowHover%", fontColorYellowHover()).
+    replace("%fontColorYellowPressed%", fontColorYellowPressed()).
     replace("%backgroundColorGray%", backgroundColorGray()).
     replace("%backgroundButtonColorGrayHover%", backgroundButtonColorGrayHover()).
-    replace("%backgroundColorBlueNormal%", backgroundColorBlueNormal()).
-    replace("%backgroundColorBlueHover%", backgroundColorBlueHover()).
-    replace("%backgroundColorBluePressed%", backgroundColorBluePressed()).
-    replace("%backgroundColorBlueDisabled%", backgroundColorBlueDisabled()).
+    replace("%backgroundColorYellowNormal%", backgroundColorYellowNormal()).
+    replace("%backgroundColorYellowHover%", backgroundColorYellowHover()).
+    replace("%backgroundColorYellowPressed%", backgroundColorYellowPressed()).
+    replace("%backgroundColorYellowDisabled%", backgroundColorYellowDisabled()).
     replace("%backgroundColorGrayNormal%", backgroundColorGrayNormal()).
     replace("%backgroundColorGrayHover%", backgroundColorGrayHover()).
     replace("%backgroundColorGrayPressed%", backgroundColorGrayPressed()).

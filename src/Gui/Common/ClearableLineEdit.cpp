@@ -39,7 +39,7 @@ const char CLEAR_BUTTON_STYLE_SHEET_TEMPLATE[] =
   "}"
 
   "QPushButton:hover {"
-    "color: %fontColorBlueHover%;"
+    "color: %fontColorYellowHover%;"
   "}";
 
 ClearableLineEdit::ClearableLineEdit(QWidget* _parent) : QLineEdit(_parent) {

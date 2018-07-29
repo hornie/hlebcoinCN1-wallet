@@ -67,7 +67,7 @@ QVariant OverviewTransactionPoolModel::data(const QModelIndex& _index, int _role
 
   case Qt::TextColorRole: {
     if (originColumn == TransactionPoolModel::COLUMN_HASH) {
-      return QColor(Settings::instance().getCurrentStyle().fontColorBlueNormal());
+      return QColor(Settings::instance().getCurrentStyle().fontColorYellowNormal());
     } else if (originColumn == TransactionPoolModel::COLUMN_AMOUNT) {
       return QColor(Settings::instance().getCurrentStyle().fontColorGray());
     }

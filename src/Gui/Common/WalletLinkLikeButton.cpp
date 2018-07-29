@@ -31,15 +31,15 @@ const char WALLET_LINK_LIKE_BUTTON_STYLE_SHEET_TEMPLATE[] =
   "WalletGui--WalletLinkLikeButton {"
     "border: 1px solid transparent;"
     "background-color: transparent;"
-    "color: %fontColorBlueNormal%;"
+    "color: %fontColorYellowNormal%;"
   "}"
 
   "WalletGui--WalletLinkLikeButton:hover {"
-    "color: %fontColorBlueHover%;"
+    "color: %fontColorYellowHover%;"
   "}"
 
   "WalletGui--WalletLinkLikeButton:pressed {"
-    "color: %fontColorBluePressed%;"
+    "color: %fontColorYellowPressed%;"
   "}"
 
   "WalletGui--WalletTinyLinkLikeButton {"

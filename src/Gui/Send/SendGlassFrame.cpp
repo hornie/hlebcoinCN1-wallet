@@ -95,7 +95,7 @@ void SendGlassFrame::drawProgressGraph(QPainter &_painter) {
   _painter.setPen(pen);
   _painter.drawArc(rect, 0, 360 * degree);
 
-  pen.setColor(QColor(Settings::instance().getCurrentStyle().backgroundColorBlueNormal()));
+  pen.setColor(QColor(Settings::instance().getCurrentStyle().backgroundColorYellowNormal()));
   _painter.setPen(pen);
   _painter.drawArc(rect, startAngle, endAngle);
 }

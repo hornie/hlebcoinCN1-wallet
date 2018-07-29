@@ -35,10 +35,10 @@ void LinkLikeColumnDelegate::paint(QPainter* _painter, const QStyleOptionViewIte
      _painter->save();
      initStyleOption(&opt, _index);
     if (opt.state & QStyle::State_MouseOver) {
-      QColor textColor(Settings::instance().getCurrentStyle().fontColorBlueHover());
+      QColor textColor(Settings::instance().getCurrentStyle().fontColorYellowHover());
       _painter->setPen(textColor);
     } else {
-      QColor textColor(Settings::instance().getCurrentStyle().fontColorBlueNormal());
+      QColor textColor(Settings::instance().getCurrentStyle().fontColorYellowNormal());
       _painter->setPen(textColor);
     }
 
