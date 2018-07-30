@@ -17,7 +17,7 @@
 
 #import "NotificationMonitor.h"
 #import "INotificationMonitorObserver.h"
-#import <Foundation/NSDistributedNotificationCenter.h>
+#import <NSDistributedNotificationCenter.h>
 
 @implementation NotificationMonitor
 -(id) init: (WalletGui::INotificationMonitorObserver*) observer {
