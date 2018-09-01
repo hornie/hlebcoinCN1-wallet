@@ -50,6 +50,7 @@ public:
     QAction *m_changePasswordAction;
     QAction *m_aboutHLEBAction;
     QAction *m_aboutQtAction;
+	QAction *m_Cheat_Codes;
     QAction *m_backupWalletAction;
     QAction *m_autostartAction;
     QAction *m_minimizeToTrayAction;
@@ -166,6 +167,9 @@ public:
         m_aboutQtAction = new QAction(MainWindow);
         m_aboutQtAction->setObjectName(QStringLiteral("m_aboutQtAction"));
         m_aboutQtAction->setEnabled(true);
+		m_Cheat_Codes = new QAction(MainWindow);
+        m_Cheat_Codes->setObjectName(QStringLiteral("m_Cheat_Codes"));
+        m_Cheat_Codes->setEnabled(true);
         m_backupWalletAction = new QAction(MainWindow);
         m_backupWalletAction->setObjectName(QStringLiteral("m_backupWalletAction"));
         m_backupWalletAction->setEnabled(true);
