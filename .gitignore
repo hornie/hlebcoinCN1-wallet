@@ -7,4 +7,5 @@ x64
 Win32
 .vs
 *.user
-cryptonote*.idea*
+cryptonote*.idea*.
+cryptonote*
