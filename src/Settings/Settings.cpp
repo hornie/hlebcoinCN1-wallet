@@ -71,7 +71,7 @@ const quint64 DEFAULT_OPTIMIZATION_MIXIN = 1;
 
 const quint64 VERSION_MAJOR = 0;
 const quint64 VERSION_MINOR = 1;
-const quint64 VERSION_PATCH = 2;
+const quint64 VERSION_PATCH = 4;
 
 }
 
@@ -82,7 +82,7 @@ Settings& Settings::instance() {
 
 
 Settings::Settings() : m_p2pBindPort(0), m_cmdLineParser(nullptr) {
-  m_defaultPoolList << "pool.hleb.cc:3333";
+  m_defaultPoolList << " mine.hleb.cc:3333";
 
   Style* lightStyle = new LightStyle();
   Style* darkStyle = new DarkStyle();
