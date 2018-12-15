@@ -186,7 +186,7 @@ public:
     void retranslateUi(QFrame *TransferFrame)
     {
         TransferFrame->setWindowTitle(QApplication::translate("TransferFrame", "Frame", 0));
-        m_payToTextLabel->setText(QApplication::translate("TransferFrame", "PAY TO", 0));
+        m_payToTextLabel->setText(QApplication::translate("TransferFrame", "SEND TO", 0));
         m_addressBookButton->setText(QApplication::translate("TransferFrame", "Add from contacts", 0));
         m_removeButton->setText(QApplication::translate("TransferFrame", "Remove recipient", 0));
         m_amountTextLabel->setText(QApplication::translate("TransferFrame", "AMOUNT", 0));
