@@ -1,5 +1,6 @@
 // Copyright (c) 2015-2017, The Bytecoin developers
-//
+// Copyright (c) 2018, The HL developers
+// Copyright (c) 2018, The Zelerius-Network developers
 // This file is part of Bytecoin.
 //
 // HLEBcoin is free software: you can redistribute it and/or modify
@@ -28,7 +29,7 @@ namespace  {
   void miningRound(Job& _localJob, quint32& _localNonce, Crypto::Hash& _hash, Crypto::cn_context& _context) {
     _localJob.blob.replace(39, sizeof(_localNonce), reinterpret_cast<char*>(&_localNonce), sizeof(_localNonce));
     std::memset(&_hash, 0, sizeof(_hash));
-    Crypto::cn_slow_hash_v7(_context, _localJob.blob.data(), _localJob.blob.size(), _hash);
+    Crypto::cn_slow_hash_v2(_localJob.blob.data(), _localJob.blob.size(), _hash);
   }
 }
 
